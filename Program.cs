@@ -5,7 +5,7 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Введите первое число: ");
+/* Console.WriteLine("Введите первое число: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
@@ -20,7 +20,7 @@ else
 {
     Console.WriteLine($"число {number2} является большим");
     Console.WriteLine($"число {number1} является меньшим");
-}
+}*/
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и 
 // выдаёт максимальное из этих чисел.
@@ -28,6 +28,36 @@ else
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
+
+Console.WriteLine("Введите первое число: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третье число: ");
+int num3 = Convert.ToInt32(Console.ReadLine());
+
+if (num1 > num2)
+{
+    if (num1 > num3)
+    {
+        Console.WriteLine($"число {num1} является максимальным");
+    }
+    else
+    {
+        Console.WriteLine($"число {num3} является максимальным");
+    }
+}
+else
+{
+    if (num2 > num3)
+    {
+        Console.WriteLine($"число {num2} является максимальным");
+    }
+    else
+    {
+        Console.WriteLine($"число {num3} является максимальным");
+    }
+}
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
