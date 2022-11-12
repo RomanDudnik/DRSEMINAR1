@@ -150,6 +150,8 @@ else
 // 4 -> да
 // -3 -> нет
 // 7 -> нет*/
+
+//Вариант1:
 /*
 Console.WriteLine("Введите число: ");
 double number = Convert.ToInt32(Console.ReadLine());
@@ -162,6 +164,20 @@ if (number / 2 > current / 2)
 else
 {
     Console.WriteLine($"Число {number} является четным ");
+}
+*/
+//Вариант2:
+/*
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if(number / 2 == (number - 1) / 2)
+{
+    Console.WriteLine($"Число {number} нечётное ");
+}
+else
+{
+    Console.WriteLine($"Число {number} четное ");
 }
 */
 // Задача 8: Напишите программу, которая на вход принимает число (N), 
