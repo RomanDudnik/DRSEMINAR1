@@ -102,35 +102,35 @@ if (num1 == num2 && num2 == num3)
 else
 {
 
-    if(num1 == num2 && num1 > num3)
+    if (num1 == num2 && num1 > num3)
     {
         Console.WriteLine($"Два введенных числа равны и являются максимальным числом {num1} ");
     }    
     else
     {
 
-        if(num1 > num2 && num1 == num3)
+        if (num1 > num2 && num1 == num3)
         {
             Console.WriteLine($"Два введенных числа равны и являются максимальным числом {num1} ");
         }
         else
         {
 
-            if(num1 > num2 && num1 > num3)
+            if (num1 > num2 && num1 > num3)
             {
                 Console.WriteLine($"Число {num1} является максимальным ");
             }
             else
             {
 
-                if(num2 == num3)
+                if (num2 == num3)
                 {
                     Console.WriteLine($"Два введенных числа равны и являются максимальными {num2} ");
                 }
                 else
                 {
 
-                    if(num2 > num3)
+                    if (num2 > num3)
                     {
                         Console.WriteLine($"Число {num2} является максимальным ");
                     }
@@ -171,7 +171,7 @@ else
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if(number / 2 == (number - 1) / 2)
+if (number / 2 == (number - 1) / 2)
 {
     Console.WriteLine($"Число {number} нечётное ");
 }
@@ -185,4 +185,14 @@ else
 
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+/*
+Console.Write("Введите любое число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int current = 2;
 
+while (current <= number)
+{
+    Console.Write(current + " ");
+    current = current + 2;
+}
+*/
