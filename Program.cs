@@ -185,13 +185,27 @@ else
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number / 2 == (number - 1) / 2)
+if(number > 0)
 {
+    if (number / 2 == (number - 1) / 2)
+    {
     Console.WriteLine($"Число {number} нечётное ");
+    }
+    else
+    {
+    Console.WriteLine($"Число {number} четное ");
+    }
 }
 else
 {
+    if (number / 2 == (number + 1) / 2)
+    {
+    Console.WriteLine($"Число {number} нечётное ");
+    }
+    else
+    {
     Console.WriteLine($"Число {number} четное ");
+    }
 }
 */
 // Задача 8: Напишите программу, которая на вход принимает число (N), 
