@@ -157,13 +157,27 @@ Console.WriteLine("Введите число: ");
 double number = Convert.ToInt32(Console.ReadLine());
 int current = (int)number;
 
-if (number / 2 > current / 2)
+if (number < 0)
 {
-    Console.WriteLine($"Число {number} НЕ является четным ");
+    if (number / 2 < current / 2)
+    {
+        Console.WriteLine($"Число {number} НЕ является четным ");
+    }
+    else
+    {
+        Console.WriteLine($"Число {number} является четным ");
+    }
 }
 else
 {
-    Console.WriteLine($"Число {number} является четным ");
+    if (number / 2 > current / 2)
+    {
+        Console.WriteLine($"Число {number} НЕ является четным ");
+    }
+    else
+    {
+        Console.WriteLine($"Число {number} является четным ");
+    } 
 }
 */
 //Вариант2:
