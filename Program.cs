@@ -97,21 +97,21 @@ int num3 = Convert.ToInt32(Console.ReadLine());
 
 if (num1 == num2 && num2 == num3)
 {
-    Console.WriteLine($"Все числа равны {num1} ");
+    Console.WriteLine($"Все введенные числа равны {num1} ");
 }
 else
 {
 
     if (num1 == num2 && num1 > num3)
     {
-        Console.WriteLine($"Два введенных числа равны и являются максимальным числом {num1} ");
+        Console.WriteLine($"Два из введенных чисел равны и являются максимальным числом {num1} ");
     }    
     else
     {
 
         if (num1 > num2 && num1 == num3)
         {
-            Console.WriteLine($"Два введенных числа равны и являются максимальным числом {num1} ");
+            Console.WriteLine($"Два из введенных чисел равны и являются максимальным числом {num1} ");
         }
         else
         {
@@ -125,7 +125,7 @@ else
 
                 if (num2 == num3)
                 {
-                    Console.WriteLine($"Два введенных числа равны и являются максимальными {num2} ");
+                    Console.WriteLine($"Два из введенных чисел равны и являются максимальными {num2} ");
                 }
                 else
                 {
@@ -159,7 +159,7 @@ int current = (int)number;
 
 if (number / 2 > current / 2)
 {
-    Console.WriteLine($"Число {number} не является четным ");
+    Console.WriteLine($"Число {number} НЕ является четным ");
 }
 else
 {
